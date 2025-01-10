@@ -1,0 +1,16 @@
+/* 공통 규칙을 사용하는 문서-header,footer,button,table,popup
+작업하면서 하나씩 추가하는 문서 */
+
+h2{
+    color: #000;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.mt100{margin-top: 100px;}
+.mt200{margin-top: 200px;}
+.mt300{margin-top: 300px;}
+/* ㄴ마진이 개별 섹션에 필요한 경우 클래스명으로 .mt100 을 사용함 */
+
+.bg-gray-s1{background-color: #fafaf9;}
+.bg-gray-s2{background-color: #f3f3f3;}

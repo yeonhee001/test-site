@@ -1,0 +1,57 @@
+/* 태그 초기화 시키는 문서 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100..700,0,0');
+/* html에서 아이콘 이름을 적고 css에서 아이콘 폰트 font-family: 'Material Symbols Outlined'; 적용시키면 나타남*/
+/* arrow_outward language */
+
+html{
+    font-size: 20px;
+    font-family: "Noto Sans KR", serif;
+    line-height: 1.7;
+    color: #333;
+}
+body{
+    margin: 0;
+}
+
+h1,h2,h3,h4,p,figure{margin: 0;}
+ul,li,ol{
+    list-style: none;
+    margin: 0; padding: 0;
+}
+dl,dt,dd{margin: 0; padding: 0;}
+img{
+    border: none;
+    vertical-align: middle;
+    /* ㄴ하단에 생기는 4픽셀 정도의 흰색 여백을 없애기 위함 */
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* ㄴ라인 얇게, 공간없애주고 */
+}
+input,select,textarea{
+    margin: 0; padding: 0;
+    font-family: inherit;
+    /* ㄴ부모의 폰트를 상속받겠다라는 의미의 textarea */
+}
+
+span,i,em,b,strong,code,a{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    /* 박스가 커지는 걸 막기 위해서 */
+}
+*::before,*::after{
+    display: inline-block;
+    vertical-align: middle;
+    /* ㄴ하단에 생기는 4픽셀 정도의 흰색 여백을 없애기 위함 */
+}
